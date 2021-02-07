@@ -6,7 +6,7 @@ variables:
 pages:
   script:
     - rm -rf public && cd docs_source_files
-    - HUGO_DISABLELANGUAGES="fr ja es nl zh-cn de ko pt-br" hugo --minify --baseURL https://tai-lieu-lap-trinh.gitlab.io/vi.selenium.site && mv public ..
+    - HUGO_DISABLELANGUAGES="fr ja es nl zh-cn de ko pt-br" hugo --baseURL https://tai-lieu-lap-trinh.gitlab.io/vi.selenium.site && mv public ..
   artifacts:
     paths:
       - public
