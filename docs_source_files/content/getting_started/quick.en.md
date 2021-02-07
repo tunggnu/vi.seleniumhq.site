@@ -1,10 +1,10 @@
 ---
-title: "Quick tour"
+title: "Dạo nhanh"
 weight: 1
 ---
 
-Selenium is not just one tool or API
-but it composes many tools.
+Selenium không chỉ là một công cụ hoặc API
+mà nó kết hợp bởi nhiều công cụ.
 
 ## WebDriver
 

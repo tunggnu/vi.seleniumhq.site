@@ -2,11 +2,11 @@ baseURL = "https://www.selenium.dev/documentation"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 # Force to have /en/my-page and /fr/my-page routes, even for default language.
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir= false
 
 canonifyurls = "true"
 
-title = "Documentation for Selenium"
+title = "Tài liệu Selenium"
 theme = "hugo-theme-learn"
 copyright = "2013-{year}"
 
@@ -23,7 +23,7 @@ enableGitInfo = true
   themeVariant = "selenium"
   editURL = "https://github.com/SeleniumHQ/seleniumhq.github.io/edit/dev/docs_source_files/content/"
   ghrepo = "https://github.com/SeleniumHQ/seleniumhq.github.io/"
-  description = "Documentation for Selenium"
+  description = "Tài liệu Selenium"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
@@ -34,33 +34,33 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Documentation for Selenium"
+title = "Tài liệu Selenium"
 weight = 1
-languageName = "English"
+languageName = "Tiếng Việt"
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-home'></i> Selenium Home"
+name = "<i class='fas fa-home'></i> Trang chủ Selenium"
 url = "https://www.selenium.dev/"
 weight = 1
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+name = "<i class='fab fa-fw fa-github'></i> Kho mã GitHub"
 identifier = "ds"
 url = "https://github.com/SeleniumHQ/seleniumhq.github.io"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-exclamation-triangle'></i> Report a bug"
+name = "<i class='fas fa-fw fa-exclamation-triangle'></i> Báo cáo lỗi"
 url = "https://github.com/seleniumhq/seleniumhq.github.io/issues"
 weight = 11
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-trophy'></i> Credits"
+name = "<i class='fas fa-fw fa-trophy'></i> Công lao"
 url = "front_matter/copyright_and_attributions"
 weight = 20
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bullhorn'></i> How to contribute"
+name = "<i class='fas fa-fw fa-bullhorn'></i> Cách đóng góp"
 url = "contributing"
 weight = 30
 

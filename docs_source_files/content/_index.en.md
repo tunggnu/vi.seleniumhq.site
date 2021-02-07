@@ -1,8 +1,8 @@
 ---
-title: "The Selenium Browser Automation Project"
+title: "Dự án Selenium Tự động hóa Trình Duyệt"
 ---
 
-# The Selenium Browser Automation Project
+# Dự án Selenium Tự động hóa Trình Duyệt
 
 Selenium is an umbrella project for a range of tools and libraries 
 that enable and support the automation of web browsers. 

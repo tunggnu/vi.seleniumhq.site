@@ -1,9 +1,9 @@
 ---
-title: "Copyright and attributions"
+title: "Bản quyền và ghi nhận công lao"
 weight: 1
 ---
 
-## **The Documentation of Selenium**
+## **Tài liệu Selenium**
 
 Copyright {{< copyright >}}, Software Freedom Conservancy.
 
