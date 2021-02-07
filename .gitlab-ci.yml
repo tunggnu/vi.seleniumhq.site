@@ -1,0 +1,14 @@
+image: monachus/hugo
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+pages:
+  script:
+    - rm -rf public && cd docs_source_files
+    - HUGO_DISABLELANGUAGES="fr ja es nl zh-cn de ko pt-br" hugo --minify --baseURL https://tai-lieu-lap-trinh.gitlab.io/vi.selenium.site && mv public ..
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
