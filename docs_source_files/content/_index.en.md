@@ -1,31 +1,31 @@
 ---
-title: "Dự án Selenium Tự động hóa Trình Duyệt"
+title: "Dự án Selenium Tự động hóa Trình duyệt"
 ---
 
-# Dự án Selenium Tự động hóa Trình Duyệt
+# Dự án Selenium Tự động hóa Trình duyệt
 
-Selenium is an umbrella project for a range of tools and libraries 
-that enable and support the automation of web browsers. 
+Selenium là một dự án tổng hợp của một loạt các công cụ và thư viện
+cho phép và hỗ trợ tự động hóa các trình duyệt web.
 
-It provides extensions to emulate user interaction with browsers,
-a distribution server for scaling browser allocation,
-and the infrastructure for implementations of the 
-[W3C WebDriver specification](//www.w3.org/TR/webdriver/)
-that lets you write interchangeable code for all major web browsers.
+Nó cung cấp các tiện ích mở rộng để mô phỏng sự tương tác của
+người dùng với các trình duyệt, một máy chủ phân tán để mở rộng
+việc phân bổ trình duyệt, và cơ sở hạ tầng để triển khai
+[đặc tả W3C WebDriver](//www.w3.org/TR/webdriver/)
+cho phép bạn viết mã có thể chạy trên tất cả các trình duyệt web chính.
 
-This project is made possible by volunteer contributors
-who have put in thousands of hours of their own time,
-and made the source code [freely available]({{< ref "/front_matter/copyright_and_attributions.en.md#license" >}})
-for anyone to use, enjoy, and improve.
+Dự án này được thực hiện bởi những người đóng góp tình nguyện,
+những người đã dành hàng nghìn giờ của mình
+để khiến mã nguồn [luôn có sẵn]({{< ref "/front_matter/copyright_and_attributions.en.md#license" >}})
+cho mọi người thoải mái sử dụng, tận hưởng và cải tiến.
 
-Selenium brings together browser vendors, engineers, and enthusiasts
-to further an open discussion around automation of the web platform.
-The project organises [an annual conference](//seleniumconf.com/)
-to teach and nurture the community.
+Selenium tập hợp các nhà cung cấp trình duyệt, kỹ sư và những
+người đam mê để xúc tiến một cuộc thảo luận cởi mở về tự động hóa
+nền tảng web. Dự án tổ chức [hội nghị thường niên](//seleniumconf.com/)
+để giảng dạy và nuôi dưỡng cộng đồng.
 
-At the core of Selenium is _[WebDriver]({{< ref "/webdriver/_index.md" >}})_, 
-an interface to write instruction sets that can be run interchangeably in many 
-browsers. Here is one of the simplest instructions you can make:
+Cốt lõi của Selenium là _[WebDriver]({{< ref "/webdriver/_index.md" >}})_,
+một *giao diện* để viết các tập chỉ thị có thể chạy trên nhiều trình duyệt.
+Đây là một trong những chỉ thị đơn giản nhất mà bạn có thể làm ra:
 
 {{< code-tab >}}
   {{< code-panel language="java" >}}
@@ -61,7 +61,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.expected_conditions import presence_of_element_located
 
-#This example requires Selenium WebDriver 3.13 or newer
+#Ví dụ này yêu cầu Selenium WebDriver 3.13 hoặc mới hơn
 with webdriver.Firefox() as driver:
     wait = WebDriverWait(driver, 10)
     driver.get("https://google.com/ncr")
@@ -148,23 +148,22 @@ fun main() {
 {{< / code-tab >}}
 
 
-See the _[Quick Tour]({{< ref "/getting_started/quick.en.md" >}})_ for a full explanation
-of what goes on behind the scenes when you run this code.
-You should continue on to the [narrative documentation]({{< ref "/introduction/_index.md" >}})
-to understand how you can [install]({{< ref "/selenium_installation/_index.md" >}}) and
-successfully use Selenium as a test automation tool,
-and scaling simple tests like this to run
-in large, distributed environments on multiple browsers,
-on several different operating systems.
+Hãy xem mục _[Tham quan nhanh]({{< ref "/getting_started/quick.en.md" >}})_ để có giải thích đầy đủ
+về những gì diễn ra đằng sau khi bạn chạy mã này.
+Bạn nên tiếp tục xem [tài liệu giới thiệu]({{< ref "/introduction/_index.md" >}})
+để hiểu cách bạn có thể [cài đặt]({{< ref "/selenium_installation/_index.md" >}}) và
+sử dụng thành công Selenium như một công cụ tự động hóa việc thử nghiệm,
+và mở rộng các thử nghiệm đơn giản như thế này để chạy trong
+các môi trường lớn, phân tán trên nhiều trình duyệt,
+trên một số hệ điều hành khác nhau.
 
-## Getting started
+## Bắt đầu
 
-If you are new to Selenium,
-we have a few resources that can help you
-get up to speed right away.
+Nếu bạn chưa quen với Selenium,
+chúng tôi có một số tài nguyên có thể giúp bạn
+có tất cả thông tin mới nhất ngay lập tức.
 
-* [Quick tour]({{< ref "/getting_started/quick.en.md" >}})
+* [Tham quan nhanh]({{< ref "/getting_started/quick.en.md" >}})
   * [WebDriver]({{< ref "/getting_started/quick.en.md#webdriver" >}})
   * [IDE]({{< ref "/getting_started/quick.en.md#ide" >}})
   * [Grid]({{< ref "/getting_started/quick.en.md#grid" >}})
-
