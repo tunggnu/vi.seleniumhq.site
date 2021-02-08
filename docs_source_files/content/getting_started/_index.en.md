@@ -1,16 +1,16 @@
 ---
-title: "Getting started"
+title: "Bắt đầu"
 chapter: true
 weight: 1
 ---
 
-# Getting started
+# Bắt đầu
 
-If you are new to Selenium,
-we have a few resources that can help you
-get up to speed right away.
+Nếu bạn chưa quen với Selenium,
+chúng tôi có một số tài nguyên có thể giúp bạn
+có tất cả thông tin mới nhất ngay lập tức.
 
-* [Quick tour]({{< ref "/getting_started/quick.en.md" >}})
+* [Tham quan nhanh]({{< ref "/getting_started/quick.en.md" >}})
   * [WebDriver]({{< ref "/getting_started/quick.en.md#webdriver" >}})
   * [IDE]({{< ref "/getting_started/quick.en.md#ide" >}})
   * [Grid]({{< ref "/getting_started/quick.en.md#grid" >}})
