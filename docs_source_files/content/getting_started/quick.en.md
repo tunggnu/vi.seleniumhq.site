@@ -1,41 +1,41 @@
 ---
-title: "Dạo nhanh"
+title: "Tham quan nhanh"
 weight: 1
 ---
 
 Selenium không chỉ là một công cụ hoặc API
-mà nó kết hợp bởi nhiều công cụ.
+mà nó hợp thành từ nhiều công cụ.
 
 ## WebDriver
 
-If you are beginning with desktop website or mobile website test automation, then you
-are going to be using WebDriver APIs. _[WebDriver]({{< ref "/webdriver/_index.md" >}})_ 
-uses browser automation APIs provided by browser vendors to control browser and
-run tests. This is as if a real user is operating the browser. Since
-WebDriver does not require its API to be compiled with application
-code, it is not intrusive. Hence, you are testing the
-same application which you push live.
+Nếu bạn đang bắt đầu với tự động hóa việc kiểm tra trang web trên máy tính để
+bàn hoặc thiết bị di động, thì bạn sẽ sử dụng API WebDriver.
+_[WebDriver]({{< ref "/webdriver/_index.md" >}})_ sử dụng các API tự động hóa
+do nhà cung cấp trình duyệt cung cấp để kiểm soát trình duyệt và chạy các bài
+kiểm tra. Nó giống như thể một người dùng thực đang điều khiển trình duyệt. Vì
+WebDriver không yêu cầu API của nó phải biên dịch cùng mã ứng dụng, nên nó không
+xâm phạm mã. Do đó bạn đang kiểm tra cùng một ứng dụng mà bạn sẽ phát hành.
 
 
 ## IDE
 
-_[IDE](https://selenium.dev/selenium-ide)_ (Integrated Development Environment) 
-is the tool you use to develop your Selenium test cases. It’s an easy-to-use Chrome 
-and Firefox extension and is generally the most efficient way to develop 
-test cases. It records the users' actions in the browser for you, using 
-existing Selenium commands, with parameters defined by the context of 
-that element. This is not only a time-saver but also an excellent way 
-of learning Selenium script syntax.
+_[IDE](https://selenium.dev/selenium-ide)_ (Integrated Development Environment - 
+môi trường phát triển tích hợp) là công cụ bạn dùng để phát triển các trường hợp
+kiểm tra của Selenium. Nó là một tiện ích mở rộng dễ dùng cho Chrome và Firefox,
+và nói chung là cách hiệu quả nhất để phát triển các trường hợp kiểm tra. Nó ghi
+lại các hành động của người dùng trên trình duyệt, dùng các lệnh Selenium hiện
+có, với các tham số được định nghĩa theo ngữ cảnh. Điều này không chỉ tiết kiệm
+thời gian mà còn là một cách tuyệt vời để học cú pháp tập lệnh Selenium.
 
 ## Grid
 
-Selenium Grid allows you to run test cases in different 
-machines across different platforms. The control of 
-triggering the test cases is on the local end, and 
-when the test cases are triggered, they are automatically 
-executed by the remote end.
+Selenium Grid cho phép bạn chạy các trường hợp kiểm tra trong
+các máy khác nhau qua các nền tảng khác nhau. Việc kiểm soát
+sự kích hoạt các trường hợp kiểm tra là ở phía cục bộ, và khi
+các trường hợp kiểm tra được kích hoạt, chúng sẽ tự động được
+thực thi ở phía từ xa.
 
-After the development of the WebDriver tests, you may face 
-the need of running your tests on multiple browser and 
-operating system combinations.
-This is where _[Grid]({{< ref "/grid/_index.md" >}})_ comes into the picture.
+Sau khi phát triển các bài kiểm tra WebDriver, bạn có thể đối
+diện với nhu cầu chạy các bài kiểm tra của mình trên nhiều tổ
+hợp trình duyệt và hệ điều hành.
+Đó chính là lúc _[Grid]({{< ref "/grid/_index.md" >}})_ xuất hiện.
