@@ -1,10 +1,10 @@
 ---
-title: "Introduction"
+title: "Giới thiệu"
 chapter: true
 weight: 2
 ---
 
-# Introduction
+# Giới thiệu
 
-Selenium is an umbrella project for a range of tools and libraries that enable
-and support the automation of web browsers. 
+Selenium là một dự án tổng hợp của một loạt các công cụ và thư viện cho phép
+và hỗ trợ tự động hóa các trình duyệt web.
