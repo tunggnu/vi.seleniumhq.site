@@ -1,117 +1,117 @@
 ---
-title: "The Selenium project and tools"
+title: "Dự án Selenium và các công cụ"
 weight: 1
 ---
 
-### Selenium controls web browsers
+### Selenium điều khiển trình duyệt web
 
-_Selenium_ is many things 
-but at its core, it is a toolset for web browser automation
-that uses the best techniques available
-to remotely control browser instances
-and emulate a user's interaction with the browser.
+_Selenium_ là nhiều thứ
+nhưng cốt lõi của nó là một bộ công cụ để tự động hóa trình duyệt web
+sử dụng các kỹ thuật tốt nhất hiện có
+để điều khiển từ xa các phiên bản trình duyệt
+và mô phỏng tương tác của người dùng với trình duyệt.
 
-It allows users to simulate common activities performed by end-users;
-entering text into fields,
-selecting drop-down values and checking boxes,
-and clicking links in documents.
-It also provides many other controls such as mouse movement,
-arbitrary JavaScript execution, and much more.
+Nó cho phép lập trình viên mô phỏng
+các hoạt động phổ biến được thực hiện bởi người dùng cuối;
+nhập văn bản vào các trường, chọn giá trị thả xuống và hộp kiểm,
+và nhấp vào liên kết trong tài liệu.
+Nó cũng cung cấp nhiều điều khiển khác như di chuyển chuột,
+thực thi JavaScript tùy ý và hơn thế nữa.
 
-Although used primarily for front-end testing of websites,
-Selenium is at its core a browser user agent _library_.
-The interfaces are ubiquitous to their application,
-which encourages composition with other libraries to suit your purpose.
-
-
-### One interface to rule them all
-
-One of the project's guiding principles
-is to support a common interface for all (major) browser technologies.
-Web browsers are incredibly complex, highly engineered applications,
-performing their operations in completely different ways
-but which frequently look the same while doing so.
-Even though the text is rendered in the same fonts,
-the images are displayed in the same place
-and the links take you to the same destination.
-What is happening underneath is as different as night and day.
-Selenium “abstracts” these differences,
-hiding their details and intricacies from the person writing the code.
-This allows you to write several lines of code to perform a complicated workflow,
-but these same lines will execute on Firefox,
-Internet Explorer, Chrome, and all other supported browsers.
+Mặc dù được sử dụng chủ yếu để kiểm tra bề ngoài (front-end) của các trang web,
+cốt lõi của Selenium là một _thư viện_ phần mềm trình duyệt.
+Các giao diện phổ biến đối với ứng dụng của chúng (?), điều này khuyến khích
+việc kết hợp Selenium với các thư viện khác để phù hợp với mục đích của bạn.
 
 
-### Tools and support
+### Một giao diện để quản lý tất cả
 
-Selenium's minimalist design approach gives it the 
-versatility to be included as a component in bigger applications.
-The surrounding infrastructure provided under the Selenium umbrella
-gives you the tools to put together
-your [grid of browsers]({{< ref "/grid/_index.md" >}})
-so tests can be run on different browsers and multiple operating systems
-across a range of machines.
-
-Imagine a bank of computers in your server room or data center 
-all firing up browsers at the same time
-hitting your site's links, forms,
-and tables&mdash;testing your application 24 hours a day.
-Through the simple programming interface
-provided for the most common languages,
-these tests will run tirelessly in parallel,
-reporting back to you when errors occur.
-
-It is an aim to help make this a reality for you,
-by providing users with tools and documentation to not only control browsers 
-but to make it easy to scale and deploy such grids.
+Một trong các nguyên tắc chỉ đạo của dự án
+là hỗ trợ một giao diện chung cho tất cả các công nghệ trình duyệt (chính).
+Các trình duyệt web là các ứng dụng được thiết kế cao độ, cực kỳ phức tạp,
+thi hành các hoạt động của chúng theo các cách hoàn toàn khác nhau
+nhưng lại thường trông giống nhau trong khi làm thế.
+Mặc dù văn bản được hiển thị với cùng phông chữ,
+hình ảnh được hiển thị tại cùng một chỗ
+và các liên kết đưa bạn đến cùng một đích.
+Những thứ đang diễn ra bên dưới là khác biệt như ngày với đêm.
+Selenium lược bỏ những khác biệt đó,
+che giấu những phức tạp và chi tiết của chúng khỏi người viết mã.
+Điều này cho phép bạn viết vài dòng mã để thực hiện một quy trình công việc
+phức tạp, nhưng cùng những dòng này sẽ thực thi được trên Firefox,
+Internet Explorer, Chrome, và tất cả các trình duyệt được hỗ trợ khác.
 
 
-### Who uses Selenium
+### Công cụ và hỗ trợ
 
-Many of the most important companies in the world
-have adopted Selenium for their browser-based testing,
-often replacing years-long efforts involving other proprietary tools.
-As it has grown in popularity, so have its requirements and challenges multiplied.
+Cách tiếp cận thiết kế tối giản của Selenium đã cho nó tính đa dụng
+để có thể được gộp vào làm một thành phần trong các ứng dụng lớn hơn.
+Hạ tầng xung quanh được cung cấp bởi dự án Selenium
+cho bạn các công cụ để ghép lại thành
+[mạng lưới trình duyệt]({{< ref "/grid/_index.md" >}}) của bạn,
+để cho các bài kiểm tra có thể được chạy trên nhiều trình duyệt và nhiều hệ
+điều hành qua một loạt máy tính.
 
-As the web becomes more complicated
-and new technologies are added to websites,
-it's the mission of this project to keep up with them where possible.
-Being an open source project,
-this support is provided through the generous donation of time from many volunteers,
-every one of which has a “day job”.
+Hãy tưởng tượng một hàng máy tính trong phòng máy chủ hoặc trung tâm dữ liệu
+của bạn, tất cả đều khởi động trình duyệt cùng một lúc,
+tấn công vào các liên kết, biểu mẫu và bảng
+của trang web—kiểm tra ứng dụng của bạn 24 giờ một ngày.
+Thông qua giao diện lập trình đơn giản
+được cung cấp cho các ngôn ngữ phổ biến nhất,
+những bài kiểm tra này sẽ chạy song song không biết mệt,
+thông báo lại cho bạn khi có lỗi xảy ra.
 
-Another mission of the project is to encourage
-more volunteers to partake in this effort,
-and build a strong community
-so that the project can continue to keep up with emerging technologies
-and remain a dominant platform for functional test automation.
+Mục đích là giúp bạn biến điều này thành hiện thực, bằng cách cung cấp cho
+người dùng các công cụ và tài liệu để không chỉ kiểm soát các trình duyệt mà còn
+giúp dễ dàng mở rộng và triển khai các mạng lưới như vậy.
 
 
-### History
+### Ai sử dụng Selenium
 
-When Selenium 1 was released in 2004,
-it was out of the necessity to reduce time spent
-manually verifying consistent behaviour in the front-end of a web application.
-It made use of what tools were available at the time 
-and relied heavily on the injection of JavaScript to the web page under test
-to emulate a user's interaction.
+Nhiều công ty quan trọng nhất trên thế giới đã ứng dụng Selenium vào công
+việc kiểm tra dựa trên trình duyệt của họ, thường thay thế các nỗ lực
+kéo dài nhiều năm liên quan đến các công cụ độc quyền khác. Khi nó ngày
+càng phổ biến, các yêu cầu và thử thách của nó cũng tăng lên gấp bội.
 
-Whilst JavaScript is a good tool to let you introspect the properties of the DOM
-and to do certain client-side observations that you would otherwise not be able to do,
-it falls short on the ability to naturally replicate a user's interactions
-as if the mouse and keyboard are being used.
+Khi web trở nên phức tạp hơn
+và các công nghệ mới được thêm vào các trang web,
+nhiệm vụ của dự án này là theo kịp chúng khi có thể.
+Là một dự án mã nguồn mở, sự hỗ trợ này được cung cấp thông qua
+sự đóng góp thời gian hào phóng từ nhiều tình nguyện viên,
+mỗi người trong số họ đều có một "công việc ban ngày".
 
-Since then, Selenium has grown and matured a lot,
-into a tool widely used by many&mdash;if not most&mdash;of
-the largest organisations around the world.
-Selenium has gone from a homebrewed test automation toolkit developed at Thoughtworks
-for a niché audience and a specific use case,
-to the world's _de facto_ browser automation library.
+Một nhiệm vụ khác của dự án là khuyến khích
+nhiều tình nguyện viên hơn nữa tham gia vào nỗ lực này,
+và xây dựng một cộng đồng vững mạnh
+để cho dự án có thể tiếp tục theo kịp với các công nghệ mới mẻ
+và tiếp tục là nền tảng chủ đạo cho việc tự động hóa kiểm tra chức năng.
 
-Just as Selenium RC made use of the tools of the trade available at the time,
-[Selenium WebDriver]({{< ref "/webdriver/_index.md" >}}) drives that tradition on by taking
-the browser interaction part to the browser vendor's home turf 
-and asking them to take responsibility of the backend, browser-facing implementations.
-Recently this work has evolved into a W3C standardisation process
-where the goal is to turn the WebDriver component in Selenium
-into the _du jour_ remote control library for user agents.
+
+### Lịch sử
+
+Khi Selenium 1 được phát hành năm 2004,
+nó đã ra đời từ sự cần thiết giảm bớt thời gian tiêu tốn
+cho việc xác minh thủ công hành vi nhất quán của bề ngoài một ứng dụng web.
+Nó đã sử dụng những công cụ có sẵn tại thời điểm đó
+và dựa rất nhiều vào việc chèn JavaScript vào trang web đang kiểm tra
+để mô phỏng tương tác của người dùng.
+
+Trong khi JavaScript là một công cụ tốt cho phép bạn tìm hiểu các thuộc tính của
+DOM và làm các quan sát nhất định phía máy khách mà bạn sẽ không thể làm nếu
+không có nó, nó thiếu khả năng sao chép tự nhiên các tương tác của người dùng
+như thể chuột và bàn phím đang được sử dụng.
+
+Kể từ đó, Selenium đã phát triển và trưởng thành rất nhiều, trở thành
+một công cụ được sử dụng rộng rãi bởi nhiều—nếu không phải là hầu hết—các
+tổ chức lớn nhất trên thế giới.
+Selenium đã đi từ một bộ công cụ tự động hóa kiểm tra "cây nhà lá vườn" được
+phát triển tại Thoughtworks cho một đối tượng dành riêng và một trường hợp sử
+dụng cụ thể, đến thư viện tự động hóa trình duyệt _trên thực tế_ của thế giới.
+
+Cũng giống như Selenium RC đã sử dụng các công cụ thương mại có sẵn vào thời
+điểm đó, [Selenium WebDriver]({{< ref "/webdriver/_index.md" >}}) tiếp tục
+truyền thống đó bằng cách đưa phần tương tác của trình duyệt đến sân nhà của nhà
+cung cấp trình duyệt và yêu cầu họ chịu trách nhiệm về phần cài đặt đằng sau
+(backend), đối diện với trình duyệt. Gần đây, công việc này đã phát triển thành
+quy trình chuẩn hóa W3C với mục tiêu là biến thành phần WebDriver trong Selenium
+thành thư viện điều khiển từ xa cho các phần mềm trình duyệt.
